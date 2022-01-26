@@ -48,3 +48,14 @@
 
 /turf/unsimulated/floor/shuttle_ceiling
 	icon_state = "reinforced"
+
+/turf/unsimulated/floor/dirt
+	name = "compacted dirt"
+	icon = 'icons/turf/floors.dmi'
+	icon_state = "redplanet"
+	footstep_sound = /decl/sound_category/asteroid_footstep
+
+/turf/unsimulated/floor/dirt/Initialize()
+	. = ..()
+	if(prob(85))
+		add_overlay("redplanet[rand(1,13)]")
