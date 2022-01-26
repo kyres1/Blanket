@@ -16,7 +16,7 @@
 	name = "Home Base - Outpost ARU-42"
 	landmark_tag = "nav_barge_start"
 	base_turf = /turf/unsimulated/floor/plating
-	base_area = /area/centcom
+	base_area = /area/caves
 
 /obj/effect/shuttle_landmark/barge/one
 	name = "Lithosphere - Planetary Crust (Low Danger)"

@@ -316,3 +316,33 @@
 	dynamic_lighting = 0
 	requires_power = 0
 	no_light_control = 1
+
+//Caves
+
+/area/caves
+	name = "Paradise Planetary Boundaries"
+	icon_state = "white"
+
+/area/caves/surface
+	name = "Paradise Planetary Surface"
+	icon_state = "white"
+
+/area/caves/lithosphere
+	name = "Paradise Planetary Lithosphere"
+	icon_state = "white"
+
+/area/caves/asthenosphere
+	name = "Paradise Planetary Asthenosphere"
+	icon_state = "white"
+
+/area/caves/mantle
+	name = "Paradise Planetary Mantle"
+	icon_state = "white"
+
+/area/caves/sunlight
+	name = "Sunlight"
+	icon_state = "yellow"
+	luminosity = 1
+	dynamic_lighting = 0
+	requires_power = 0
+	no_light_control = 1

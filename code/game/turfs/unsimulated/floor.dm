@@ -54,6 +54,7 @@
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "redplanet"
 	footstep_sound = /decl/sound_category/asteroid_footstep
+	desc = "It's giving you a dirty look!"
 
 /turf/unsimulated/floor/dirt/Initialize()
 	. = ..()

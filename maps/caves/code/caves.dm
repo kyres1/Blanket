@@ -47,3 +47,7 @@
 		NETWORK_COMMAND,
 		NETWORK_ENGINEERING,
 	)
+
+	map_shuttles = list(
+		/datum/shuttle/autodock/multi/barge
+	)
