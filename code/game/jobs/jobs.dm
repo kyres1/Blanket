@@ -33,11 +33,11 @@ var/const/INTERN_SCI		=(1<<12)
 
 var/const/CIVILIAN			=(1<<2)
 
-var/const/HOP				=(1<<0)
-var/const/BARTENDER			=(1<<1)
-var/const/BOTANIST			=(1<<2)
-var/const/CHEF				=(1<<3)
-var/const/JANITOR			=(1<<4)
+var/const/PATRON			=(1<<0)
+var/const/NONAFFILIATE		=(1<<1)
+var/const/STAFF				=(1<<2)
+var/const/BOSS				=(1<<3)
+var/const/VIP				=(1<<4)
 var/const/LIBRARIAN			=(1<<5)
 var/const/QUARTERMASTER		=(1<<6)
 var/const/CARGOTECH			=(1<<7)
@@ -49,81 +49,53 @@ var/const/CONSULAR			=(1<<12)
 var/const/MERCHANT			=(1<<13)
 var/const/JOURNALIST		=(1<<14)
 var/const/ASSISTANT			=(1<<15)
+var/const/HOP				=(1<<16)
+var/const/BARTENDER			=(1<<17)
+var/const/BOTANIST			=(1<<18)
+var/const/CHEF				=(1<<19)
+var/const/JANITOR			=(1<<20)
 
 
 var/list/command_positions = list(
-	"Captain",
-	"Head of Personnel",
-	"Head of Security",
-	"Chief Engineer",
-	"Research Director",
-	"Chief Medical Officer"
+	"Club Boss"
 )
 
 
 var/list/engineering_positions = list(
-	"Chief Engineer",
-	"Station Engineer",
-	"Atmospheric Technician",
-	"Engineering Apprentice"
+	"N/A"
 )
 
 
 var/list/medical_positions = list(
-	"Chief Medical Officer",
-	"Physician",
-	"Surgeon",
-	"Psychiatrist",
-	"Pharmacist",
-	"First Responder",
-	"Medical Intern"
+	"N/A"
 )
 
 
 var/list/science_positions = list(
-	"Research Director",
-	"Scientist",
-	"Roboticist",
-	"Xenobiologist",
-	"Lab Assistant"
+	"N/A"
 )
 
 //BS12 EDIT
 var/list/cargo_positions = list(
-	"Quartermaster",
-	"Cargo Technician",
-	"Shaft Miner"
+	"N/A"
 )
 
 var/list/civilian_positions = list(
-	"Head of Personnel",
-	"Corporate Liaison",
-	"Consular Officer",
-	"Bartender",
-	"Gardener",
-	"Chef",
-	"Janitor",
-	"Librarian",
-	"Corporate Reporter",
-	"Chaplain",
-	"Assistant",
-	"Visitor"
+	"Wardrobe Test Role",
+	"Club Patron",
+	"ECF Verified",
+	"Club Staff",
+	"Club Boss",
+	"Club Patron - VIP"
 )
 
 
 var/list/security_positions = list(
-	"Head of Security",
-	"Warden",
-	"Investigator",
-	"Security Officer",
-	"Security Cadet"
+	"N/A"
 )
 
 var/list/nonhuman_positions = list(
-	"AI",
-	"Cyborg",
-	"pAI",
-	"Merchant"
+	"N/A"
 )
 
 /proc/guest_jobbans(var/job)

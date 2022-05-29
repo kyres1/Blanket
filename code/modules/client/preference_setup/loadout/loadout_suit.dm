@@ -106,12 +106,10 @@ datum/gear/suit/colorvest
 	display_name = "surgical apron"
 	path = /obj/item/clothing/suit/apron/surgery
 	cost = 1
-	allowed_roles = list("Scientist", "Chief Medical Officer", "Physician", "Surgeon", "Pharmacist", "First Responder", "Medical Intern", "Xenobiologist", "Roboticist", "Research Director", "Investigator")
 
 /datum/gear/suit/medical_outerwear
 	display_name = "medical outerwear (jackets, vests, rigs)"
 	path = /obj/item/clothing/suit/storage/toggle/fr_jacket
-	allowed_roles = list("Chief Medical Officer", "Physician", "Surgeon", "Pharmacist", "First Responder", "Medical Intern")
 
 /datum/gear/suit/medical_outerwear/New()
 	..()
@@ -125,7 +123,6 @@ datum/gear/suit/colorvest
 /datum/gear/suit/iac_outerwear
 	display_name = "IAC outerwear (jackets, vests, rigs)"
 	path = /obj/item/clothing/suit/storage/iacvest
-	allowed_roles = list("Chief Medical Officer", "Physician", "Surgeon", "Pharmacist", "First Responder", "Medical Intern")
 	flags = GEAR_HAS_DESC_SELECTION
 
 /datum/gear/suit/iac_outerwear/New()
@@ -134,7 +131,7 @@ datum/gear/suit/colorvest
 	iac_outerwear["IAC vest"] = /obj/item/clothing/suit/storage/iacvest
 	iac_outerwear["IAC labcoat"] = /obj/item/clothing/suit/storage/toggle/labcoat/iac
 	gear_tweaks += new /datum/gear_tweak/path(iac_outerwear)
-	
+
 /datum/gear/suit/poncho
 	display_name = "poncho selection"
 	path = /obj/item/clothing/accessory/poncho
@@ -233,7 +230,6 @@ datum/gear/suit/colorvest
 /datum/gear/suit/secjacketofficer
 	display_name = "security jacket selection (Security Officer)"
 	path = /obj/item/clothing/suit/storage/security/officer
-	allowed_roles = list("Security Officer", "Head of Security", "Warden")
 
 /datum/gear/suit/secjacketofficer/New()
 	..()
@@ -246,7 +242,6 @@ datum/gear/suit/colorvest
 /datum/gear/suit/secjacketwarden
 	display_name = "security jacket selection (Warden)"
 	path = /obj/item/clothing/suit/storage/security/warden
-	allowed_roles = list("Head of Security", "Warden")
 
 /datum/gear/suit/secjacketwarden/New()
 	..()
@@ -259,7 +254,6 @@ datum/gear/suit/colorvest
 /datum/gear/suit/secjackethos
 	display_name = "security jacket selection (Head of Security)"
 	path = /obj/item/clothing/suit/storage/security/hos
-	allowed_roles = list("Head of Security")
 
 /datum/gear/suit/secjackethos/New()
 	..()
@@ -272,7 +266,6 @@ datum/gear/suit/colorvest
 /datum/gear/suit/secjacketforensictech
 	display_name = "security jacket selection (Forensic Technician)"
 	path = /obj/item/clothing/suit/storage/toggle/forensics
-	allowed_roles = list("Investigator")
 
 /datum/gear/suit/secjacketforensictech/New()
 	..()

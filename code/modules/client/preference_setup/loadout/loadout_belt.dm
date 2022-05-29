@@ -14,5 +14,4 @@
 	display_name = "tool-belt, alt"
 	cost = 0
 	path = /obj/item/storage/belt/utility/alt
-	allowed_roles = list("Station Engineer", "Atmospheric Technician", "Chief Engineer", "Engineering Apprentice", "Roboticist", "Research Director")
 	flags = null

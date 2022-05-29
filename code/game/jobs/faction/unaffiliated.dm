@@ -10,10 +10,11 @@
 	</p>"}
 
 	allowed_role_types = list(
-		/datum/job/visitor,
-		/datum/job/journalist,
-		/datum/job/merchant,
-		/datum/job/consular
+		/datum/job/patron,
+		/datum/job/nonaffiliate,
+		/datum/job/rezz_staff,
+		/datum/job/rezz_boss,
+		/datum/job/patron_vip
 	)
 
 	title_suffix = "INDEP"

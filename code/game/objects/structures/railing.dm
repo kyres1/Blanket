@@ -24,6 +24,13 @@
 	. = ..()
 	color = COLOR_GUNMETAL // They're not painted!
 
+/obj/structure/railing/club
+	name = "club railing"
+	desc = "A simple railing designed to protect against careless trespass."
+	icon = 'icons/obj/rezz/railing.dmi'
+	icon_state = "railing0-1"
+	anchored = TRUE
+
 /obj/structure/railing/mapped/no_density
 	density = FALSE
 
